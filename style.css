@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.thebuzzpaper.com/wp-content/uploads/2020/01/Lucifer-Season-5-Release-Date-1.jpg);
+    background-size: cover;
+}
+
+#back{
+    width: 53.5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    padding: 35px 70px;
+}
+
+#nav #logo img{
+    width: 110px;
+    height: 30px;
+}
+
+#nav #links a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+#links #border{
+    border-bottom: 2px solid rgb(196, 196, 24);
+    padding-bottom: 10px;
+}
+
+#nav #menu i{
+    color: white;
+}
+
+#title{
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    margin-top: 210px;
+    margin-left: 120px;
+}
+
+#title hr{
+    border-color: rgb(196, 196, 24);
+    margin-bottom: 15px;
+    width: 120px;
+}
+
+#title h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    color: white;
+    font-weight: 100;
+}
+
+#title p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 40px;
+    font-size: 13px;
+    color: white;
+}
+
+#title h4{
+    color: white;
+    margin-top: 20px;
+}
+
+#title i{
+    color: white;
+    margin-left: 10px;
+}
+
+#scroll{
+    position: absolute;
+    width: 120px;
+    color: white;
+    margin-top: 600px;
+    margin-left: 50%;
+}
+
+#scroll{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#scroll i{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(196, 196, 24);
+    right: 0px;
+    bottom: 0px;
+}
+
+#play{
+    color: white;
+}
+
